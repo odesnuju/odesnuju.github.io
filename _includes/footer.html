@@ -7,7 +7,7 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-      {%- if site.author %}
+      {% comment %} {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
             <li class="p-name">{{ site.author.name | escape }}</li>
@@ -16,7 +16,9 @@
             <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {%- endif %}
         </ul>
-      {%- endif %}
+      {%- endif %} {% endcomment %}
+      <img class="logo" src="/assets/img/logo320.png"
+        alt="{{ site.author.name | escape }}" >
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>

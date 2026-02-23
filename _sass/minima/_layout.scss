@@ -126,6 +126,12 @@
 .site-footer {
   border-top: 1px solid $border-color-01;
   padding: $spacing-unit 0;
+
+  .logo {
+    display: inline-block;
+    width: 100px;
+    border-radius: 50%;
+  }
 }
 
 .footer-heading {
