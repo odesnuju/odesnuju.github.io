@@ -85,6 +85,9 @@ minima:
     - title: Telegram
       icon: telegram
       url: "https://t.me/odesnuju"
+    - title: GitHub
+      icon: github
+      url: "https://github.com/odesnuju/odesnuju.github.io"
 #
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
